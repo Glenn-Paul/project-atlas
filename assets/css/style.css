@@ -1,12 +1,31 @@
+/* Universal */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* All Links */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* All Paragraphs */
+
+p {
+    font-size: 16px;
+}
+
+/* Navigation Bar */
 
 .header {
     padding: 20px;
@@ -41,14 +60,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Main Image */
 
 .hero {
     height: 800px;
@@ -59,10 +71,14 @@ p {
     background-position: center;
 }
 
+/* Search Engine Optimization & Social Media Marketing Images */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* Online Reputation Management Image */
 
 .float-right {
     float: right;
@@ -187,6 +203,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer */
 
 .footer {
     padding: 30px;
